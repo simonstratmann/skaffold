@@ -71,7 +71,7 @@ func TestNewSyncItem(t *testing.T) {
 				},
 			},
 			evt: filemon.Events{
-				Added: []string{"index.html"},
+				Added: []string{"someOtherFile.txt", "index.html"},
 			},
 			expected: &Item{
 				Image: "test:123",
